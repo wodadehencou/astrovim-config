@@ -8,6 +8,8 @@
 return {
   "AstroNvim/astrocommunity",
   -- import/override with your plugins folder
+  { import = "astrocommunity.motion.nvim-surround" },
+  { import = "astrocommunity.motion.tabout-nvim" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.cmake" },
   { import = "astrocommunity.pack.cpp" },
@@ -18,8 +20,8 @@ return {
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.recipes.cache-colorscheme" },
   { import = "astrocommunity.recipes.neovide" },
-  { import = "astrocommunity.recipes.picker-nvchad-theme" },
-  { import = "astrocommunity.recipes.vscode" },
   { import = "astrocommunity.recipes.picker-lsp-mappings" },
   { import = "astrocommunity.recipes.picker-nvchad-theme" },
+  { import = "astrocommunity.recipes.picker-nvchad-theme" },
+  { import = "astrocommunity.recipes.vscode" },
 }
