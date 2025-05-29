@@ -10,8 +10,8 @@ return {
           -- mappings seen under group name "Buffer"
           ["#"] = { "*" },
           ["*"] = { "#" },
-          ["<left>"] = { function() require("astrocore.buffer").nav(-1) end, desc = "left buffer" },
-          ["<right>"] = { function() require("astrocore.buffer").nav(1) end, desc = "right buffer" },
+          ["<left>"] = { function() require("astrocore.buffer").nav(-vim.v.count1) end, desc = "left buffer" },
+          ["<right>"] = { function() require("astrocore.buffer").nav(vim.v.count1) end, desc = "right buffer" },
           -- ["<Leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
           -- ["<Leader>bD"] = {
           --   function()
